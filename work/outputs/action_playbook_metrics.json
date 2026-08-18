@@ -1,0 +1,54 @@
+{
+  "experiment_name": "ML-10 Content Action Playbook",
+  "total_content_items": 30000,
+  "unique_clients": 32,
+  "base_rate_decline": 0.5421,
+  "out_of_fold_auc_roc": 0.6932,
+  "precision_at_k": {
+    "P@10": 0.8,
+    "P@20": 0.9,
+    "P@50": 0.8,
+    "P@100": 0.75,
+    "P@250": 0.796,
+    "P@500": 0.808,
+    "P@1000": 0.783,
+    "P@2500": 0.7552,
+    "P@5000": 0.7386
+  },
+  "action_tier_distribution": {
+    "Scheduled Refresh": 14273,
+    "Immediate Refresh": 6934,
+    "Surveillance / Monitor": 4710,
+    "Deprioritize / Maintain": 4083
+  },
+  "reason_code_distribution": {
+    "TITLE_META_REWRITE_LOW_CTR": 12610,
+    "EVERGREEN_STABLE": 7294,
+    "ENGAGEMENT_REVAMP_LOW_INTERACTION": 5396,
+    "COMPETITOR_SERP_DRIFT": 4698,
+    "STALE_HIGH_DEMAND_PILLAR": 2
+  },
+  "human_signoff_mandatory_count": 12446,
+  "feature_stability_psi": {
+    "ctr": {
+      "PSI": 0.0009,
+      "Status": "STABLE (PSI < 0.10)"
+    },
+    "avg_position": {
+      "PSI": 0.0015,
+      "Status": "STABLE (PSI < 0.10)"
+    },
+    "impressions_90d": {
+      "PSI": 0.0013,
+      "Status": "STABLE (PSI < 0.10)"
+    },
+    "engagement_rate": {
+      "PSI": 0.0004,
+      "Status": "STABLE (PSI < 0.10)"
+    },
+    "days_since_last_update": {
+      "PSI": 0.0003,
+      "Status": "STABLE (PSI < 0.10)"
+    }
+  }
+}
